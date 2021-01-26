@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "cit-quick-links": {
+      "hosting": {
+        "cit-quick-links": [
+          "cit-quick-links"
+        ]
+      }
+    }
+  }
+}
