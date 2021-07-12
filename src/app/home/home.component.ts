@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   constructor(private ds: DataService) { }
 
   ngOnInit(): void {
-    this.ds.getAllLinks().subscribe(links => this.links = links)
+    this.ds.getAllLinks().subscribe(links => this.links = links);
   }
 
 }

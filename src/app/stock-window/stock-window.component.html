@@ -1,0 +1,9 @@
+<h1>CIT Stockroom</h1>
+<h2>Assets available for deployment.</h2>
+<h3>Non-authoritative quick-reference</h3>
+<app-stock-item *ngFor="let item of items" [item]="item"></app-stock-item>
+<form #newItem="ngForm" (ngSubmit)="onSubmit(newItem)">
+    <input type="text" id="model" name="model" ngModel>
+    <input type="number" id="quantity" name="quantity" ngModel>
+    <button type="submit">Add item</button>
+</form>

@@ -1,0 +1,9 @@
+<div>
+    <span class='modelName'>{{item.model}}</span>
+    <span class='quantity'>Quantity: {{item.quantity}}</span>
+    <span class='buttons'>
+        <button (click)="decrementQuantity()">-</button>
+        <button (click)="incrementQuantity()">+</button>
+        <button (click)="deleteItem()">Remove</button>
+    </span>
+</div>
